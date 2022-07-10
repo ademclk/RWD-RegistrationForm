@@ -23,6 +23,7 @@ form {
     max-width: 500px;
     min-width: 300px;
     width: 60vw;
+    padding: 2em;
 }
 
 input, textarea, select {
@@ -50,6 +51,10 @@ fieldset:not(:last-of-type) {
     border-bottom:3px solid #3b3b4f;
 }
 
+a {
+    color: #dfdfe2;
+}
+
 .inline {
     width: unset;
     margin: 0;
@@ -68,4 +73,8 @@ input[type="submit"] {
     margin-bottom: 1em;
     height: 2em;
     font-size: 1.1em;
+}
+
+input[type="file"] {
+    padding: 1px 2px;
 }
